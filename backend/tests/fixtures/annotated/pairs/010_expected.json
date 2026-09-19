@@ -1,0 +1,26 @@
+{
+  "note": "人工复核定稿（2026-09-18，对照 deepseek-flash 真实录制 vcr/010.json）：全 gap 案例，验证如实报缺口",
+  "resume_source": "04_quantified.txt",
+  "requirements": [
+    {
+      "text_contains": "Java",
+      "priority": "must",
+      "expect_status": "gap"
+    },
+    {
+      "text_contains": "分布式系统",
+      "priority": "must",
+      "expect_status": "gap"
+    },
+    {
+      "text_contains": "高并发",
+      "priority": "must",
+      "expect_status": "gap"
+    },
+    {
+      "text_contains": "Redis",
+      "priority": "must",
+      "expect_status": "gap"
+    }
+  ]
+}

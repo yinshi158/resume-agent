@@ -1,0 +1,10 @@
+{
+  "pair": "008",
+  "calls": [
+    "{\"requirements\":[{\"priority\":\"must\",\"text\":\"3 年以上用户增长或活动运营经验\",\"keywords\":[\"用户增长\",\"user growth\",\"活动运营\",\"campaign operations\",\"3年经验\"]},{\"priority\":\"must\",\"text\":\"擅长数据驱动的业务分析\",\"keywords\":[\"数据驱动\",\"data-driven\",\"业务分析\",\"business analysis\"]},{\"priority\":\"preferred\",\"text\":\"有会员体系搭建经验者优先\",\"keywords\":[\"会员体系\",\"membership system\",\"搭建\",\"优先\"]},{\"priority\":\"must\",\"text\":\"有团队管理经验\",\"keywords\":[\"团队管理\",\"team management\",\"管理经验\"]}]}",
+    "{\"req_index\": 0, \"quote\": \"负责过用户增长、活动运营与渠道投放\", \"fact_id\": \"a2c2f4497d99416a8c95fd30dfb423d0\", \"nearest_fact_id\": \"d5c34f8a13de44bd8c37d2b8a5b2c87a\"}",
+    "{\"req_index\": 1, \"quote\": \"擅长用数据驱动业务增长\", \"fact_id\": \"a2c2f4497d99416a8c95fd30dfb423d0\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 2, \"quote\": \"主导会员体系改版,转化率 1200%\", \"fact_id\": \"f2ab40edddc142f099e6519b4acb4961\", \"nearest_fact_id\": \"f2ab40edddc142f099e6519b4acb4961\"}",
+    "{\"req_index\": 3, \"quote\": \"管理 5 人团队\", \"fact_id\": \"57de8193a5f640a38e76484f9efdbe95\", \"nearest_fact_id\": null}"
+  ]
+}

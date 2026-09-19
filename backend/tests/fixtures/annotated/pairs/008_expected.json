@@ -1,0 +1,30 @@
+{
+  "note": "人工复核定稿（2026-09-18，对照 deepseek-flash 真实录制 vcr/008.json）",
+  "resume_source": "04_quantified.txt",
+  "requirements": [
+    {
+      "text_contains": "用户增长",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "用户增长"
+    },
+    {
+      "text_contains": "数据驱动",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "数据驱动"
+    },
+    {
+      "text_contains": "会员体系",
+      "priority": "preferred",
+      "expect_status": "direct",
+      "expect_quote_contains": "会员体系"
+    },
+    {
+      "text_contains": "团队管理",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "管理 5 人团队"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "01-spark",
+  "seed": "boundary-003",
+  "sentence": "使用 Python 与 Spark 改造离线特征链路，特征产出时间从 4 小时缩短到 40 分钟",
+  "source_fact_ids": [
+    "c1"
+  ],
+  "sources": {
+    "c1": {
+      "raw_quote": "使用 Python + Spark 改造离线特征链路，特征产出时间从 4 小时缩短到 40 分钟",
+      "attribution": "individual"
+    }
+  },
+  "expect_entailed": true,
+  "comment": "边界 003 翻正（C9）：简历有明确逐字证据，L2 应判蕴含——M2 的漏引是诊断层现象，不是证据缺失（spec §16.5）"
+}

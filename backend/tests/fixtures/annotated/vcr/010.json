@@ -1,0 +1,10 @@
+{
+  "pair": "010",
+  "calls": [
+    "{\"requirements\":[{\"priority\":\"must\",\"text\":\"精通 Java 或 Go 后端开发\",\"keywords\":[\"Java\",\"Go\",\"后端开发\",\"backend\"]},{\"priority\":\"must\",\"text\":\"熟悉分布式系统设计\",\"keywords\":[\"分布式系统\",\"distributed systems\",\"系统设计\"]},{\"priority\":\"must\",\"text\":\"有高并发系统经验\",\"keywords\":[\"高并发\",\"high concurrency\",\"系统经验\"]},{\"priority\":\"must\",\"text\":\"熟悉 Redis 与 MySQL\",\"keywords\":[\"Redis\",\"MySQL\",\"数据库\",\"缓存\"]}]}",
+    "{\"req_index\": 0, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": null}",
+    "{\"req_index\": 1, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": null}",
+    "{\"req_index\": 2, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": null}",
+    "{\"req_index\": 3, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": null}"
+  ]
+}

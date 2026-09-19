@@ -1,0 +1,6 @@
+{
+  "case": "01-spark",
+  "calls": [
+    "{\"entailed\": true, \"supported_fact_ids\": [\"c1\"], \"reason\": \"句子内容与出处 c1 逐字一致，Python+Spark 改造离线特征链路及耗时从 4 小时缩短到 40 分钟均有出处支撑。\"}"
+  ]
+}

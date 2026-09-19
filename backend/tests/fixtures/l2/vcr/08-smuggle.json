@@ -1,0 +1,6 @@
+{
+  "case": "08-smuggle",
+  "calls": [
+    "{\"entailed\": false, \"supported_fact_ids\": [\"c1\"], \"reason\": \"出处仅列出 Kubernetes 作为技能项，未提及 AWS，也未声称任何生产环境经验，故句子的 AWS 与“生产环境经验”断言无支撑。\"}"
+  ]
+}

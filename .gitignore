@@ -1,0 +1,32 @@
+# 工具目录（本地专用）
+.codebuddy/
+.workbuddy-ai/
+.workbuddy/
+.playwright-cli/
+
+# 启动脚本（本地专用）
+start.bat
+start.ps1
+
+# 运行时数据：上传原件 / SQLite 库（含 LLM API key）/ 导出物
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Node / 前端构建产物
+node_modules/
+dist/
+*.tsbuildinfo
+
+# 系统与日志
+.DS_Store
+Thumbs.db
+*.log

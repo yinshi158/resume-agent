@@ -1,0 +1,10 @@
+{
+  "pair": "004",
+  "calls": [
+    "{\"requirements\":[{\"priority\":\"must\",\"text\":\"3 年以上 Java 后端开发经验\",\"keywords\":[\"Java\",\"后端开发\",\"3年以上\",\"backend\"]},{\"priority\":\"must\",\"text\":\"精通 Spring 框架与微服务架构\",\"keywords\":[\"Spring\",\"微服务\",\"microservices\",\"架构\"]},{\"priority\":\"must\",\"text\":\"有高并发系统稳定性建设经验\",\"keywords\":[\"高并发\",\"high concurrency\",\"稳定性建设\",\"系统稳定性\"]},{\"priority\":\"must\",\"text\":\"熟悉 MySQL 数据库优化\",\"keywords\":[\"MySQL\",\"数据库优化\",\"database optimization\",\"SQL\"]}]}",
+    "{\"req_index\": 0, \"quote\": \"后端开发工程师 | 2021.7 - 至今\", \"fact_id\": \"aa6faeb38b3f41229d45b929184d2e29\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 1, \"quote\": \"Java、Spring、MySQL、微服务\", \"fact_id\": \"72877eee74674ab6bdeb22dca5b8dd06\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 2, \"quote\": \"负责交易链路稳定性建设,SLA 从 99.9% 提升到 99.99%\", \"fact_id\": \"6ccda5f31cdd4efa8ceb0ac7458a68b2\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 3, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"72877eee74674ab6bdeb22dca5b8dd06\"}"
+  ]
+}

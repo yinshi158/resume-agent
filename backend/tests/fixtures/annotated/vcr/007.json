@@ -1,0 +1,10 @@
+{
+  "pair": "007",
+  "calls": [
+    "{\"requirements\":[{\"priority\":\"must\",\"text\":\"精通 Java 微服务开发\",\"keywords\":[\"Java\",\"微服务\",\"microservices\"]},{\"priority\":\"must\",\"text\":\"有高并发服务设计经验\",\"keywords\":[\"高并发\",\"high concurrency\",\"服务设计\"]},{\"priority\":\"must\",\"text\":\"熟悉 Redis 与消息队列\",\"keywords\":[\"Redis\",\"消息队列\",\"Message Queue\",\"MQ\"]},{\"priority\":\"must\",\"text\":\"有 Kubernetes 容器化部署经验\",\"keywords\":[\"Kubernetes\",\"K8s\",\"容器化部署\",\"containerization\"]}]}",
+    "{\"req_index\": 0, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": null}",
+    "{\"req_index\": 1, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"248cb8923000484a95931b7df8c4bf9c\"}",
+    "{\"req_index\": 2, \"quote\": \"使用 Flink + Kafka 构建实时链路,端到端延迟稳定在 5 分钟内\", \"fact_id\": \"270d785caaff4d0b92b7084010c88fcf\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 3, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"b98d881b428948ed8d2d7d1f5c0a2b9c\"}"
+  ]
+}

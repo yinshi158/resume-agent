@@ -1,0 +1,6 @@
+{
+  "case": "04-faithful",
+  "calls": [
+    "{\"entailed\": true, \"supported_fact_ids\": [\"c1\"], \"reason\": \"句子的全部断言（负责推荐系统重构、DAU 从 70 万提升到 91 万）在出处 c1 中均有逐字依据，未添加额外信息。\"}"
+  ]
+}

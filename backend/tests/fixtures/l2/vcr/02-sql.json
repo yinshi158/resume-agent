@@ -1,0 +1,6 @@
+{
+  "case": "02-sql",
+  "calls": [
+    "{\"entailed\": true, \"supported_fact_ids\": [\"c1\"], \"reason\": \"c1 中包含 SQL、熟练、5 年，与句子核心断言一致，可支撑“熟练使用 SQL（5 年经验）”。\"}"
+  ]
+}

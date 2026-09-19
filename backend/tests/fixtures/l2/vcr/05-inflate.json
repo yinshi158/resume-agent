@@ -1,0 +1,6 @@
+{
+  "case": "05-inflate",
+  "calls": [
+    "{\"entailed\": false, \"supported_fact_ids\": [\"c1\"], \"reason\": \"c1 仅支持“负责推荐系统重构”，但给出的 DAU 是从 70 万提升到 91 万（约 30%），无法支撑“DAU 提升 50%”这一数字断言。\"}"
+  ]
+}

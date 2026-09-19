@@ -1,0 +1,31 @@
+{
+  "note": "人工复核定稿（2026-09-18，对照 deepseek-flash 真实录制 vcr/006.json）",
+  "resume_source": "03_with_table.txt",
+  "requirements": [
+    {
+      "text_contains": "数据仓库建设",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "数据仓库"
+    },
+    {
+      "text_contains": "Flink",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "Flink"
+    },
+    {
+      "text_contains": "SQL",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "SQL",
+      "boundary": "m3-l2",
+      "comment": "机制边界（M3 验收输入）：技能表\"| SQL | 熟练 | 5 年 |\"存在，LLM 未正确引用（表格行的引用对模型是难点）；M3 已由 L2 标注集承接翻正（tests/fixtures/l2/，真实录制 9/9，2026-09-18）"
+    },
+    {
+      "text_contains": "数据治理",
+      "priority": "preferred",
+      "expect_status": "gap"
+    }
+  ]
+}

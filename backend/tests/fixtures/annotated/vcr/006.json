@@ -1,0 +1,10 @@
+{
+  "pair": "006",
+  "calls": [
+    "{\"requirements\":[{\"priority\":\"must\",\"text\":\"3 年以上数据仓库建设经验\",\"keywords\":[\"数据仓库\",\"data warehouse\",\"数仓建设\",\"3年经验\"]},{\"priority\":\"must\",\"text\":\"精通 Flink 实时计算与 Kafka\",\"keywords\":[\"Flink\",\"Kafka\",\"实时计算\",\"stream computing\"]},{\"priority\":\"must\",\"text\":\"精通 SQL 与 Python\",\"keywords\":[\"SQL\",\"Python\",\"数据库查询\"]},{\"priority\":\"preferred\",\"text\":\"有数据治理或元数据管理经验者优先\",\"keywords\":[\"数据治理\",\"data governance\",\"元数据管理\",\"metadata management\"]}]}",
+    "{\"req_index\": 0, \"quote\": \"负责数据仓库建设,任务日均处理数据量 2 亿条\", \"fact_id\": \"6370ae5b783840e8ac642fa7ad6cf44c\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 1, \"quote\": \"使用 Flink + Kafka 构建实时链路,端到端延迟稳定在 5 分钟内\", \"fact_id\": \"addd576691bf4ddf970c4c237114d386\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 2, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"7b080f2b306b45138e046aafa9c54624\"}",
+    "{\"req_index\":3,\"quote\":null,\"fact_id\":null,\"nearest_fact_id\":null}"
+  ]
+}

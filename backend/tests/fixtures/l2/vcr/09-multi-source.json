@@ -1,0 +1,6 @@
+{
+  "case": "09-multi-source",
+  "calls": [
+    "{\"entailed\": true, \"supported_fact_ids\": [\"c1\", \"c2\", \"c3\"], \"reason\": \"c1 逐字支撑 Flink+Kafka 实时链路且端到端延迟稳定在 5 分钟内；c2、c3 分别记载 Python 与 SQL 技能，可支撑“技能覆盖 Python 与 SQL”的概括表述。\"}"
+  ]
+}

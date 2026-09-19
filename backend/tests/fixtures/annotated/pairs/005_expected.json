@@ -1,0 +1,26 @@
+{
+  "note": "人工复核定稿（2026-09-18，对照 deepseek-flash 真实录制 vcr/005.json）：全 gap 案例，验证如实报缺口",
+  "resume_source": "02_two_column.txt",
+  "requirements": [
+    {
+      "text_contains": "推荐系统或广告算法",
+      "priority": "must",
+      "expect_status": "gap"
+    },
+    {
+      "text_contains": "深度学习框架",
+      "priority": "must",
+      "expect_status": "gap"
+    },
+    {
+      "text_contains": "特征工程",
+      "priority": "must",
+      "expect_status": "gap"
+    },
+    {
+      "text_contains": "用户增长算法",
+      "priority": "preferred",
+      "expect_status": "gap"
+    }
+  ]
+}

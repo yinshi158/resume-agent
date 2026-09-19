@@ -1,0 +1,16 @@
+{
+  "id": "06-team-claim",
+  "seed": null,
+  "sentence": "主导用户增长项目，带团队实现新增用户翻倍",
+  "source_fact_ids": [
+    "c1"
+  ],
+  "sources": {
+    "c1": {
+      "raw_quote": "参与用户增长项目，配合完成拉新活动",
+      "attribution": "team"
+    }
+  },
+  "expect_entailed": false,
+  "comment": "团队/参与成果写成个人主导 = 归因借壳（PRD 3.4 的语义侧防线，与 verb 层互补）"
+}

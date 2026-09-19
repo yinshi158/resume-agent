@@ -1,0 +1,29 @@
+{
+  "note": "人工复核定稿（2026-09-18，对照 deepseek-flash 真实录制 vcr/007.json）",
+  "resume_source": "03_with_table.txt",
+  "requirements": [
+    {
+      "text_contains": "Java 微服务",
+      "priority": "must",
+      "expect_status": "gap"
+    },
+    {
+      "text_contains": "高并发服务",
+      "priority": "must",
+      "expect_status": "gap"
+    },
+    {
+      "text_contains": "Redis",
+      "priority": "must",
+      "expect_status": "nearest",
+      "boundary": "m3-l2",
+      "comment": "机制边界（M3 验收输入）：LLM 用 Flink+Kafka 行覆盖整条判 direct——Kafka 是消息队列但 Redis 无证据，半对证据。单条要求含多子项时 M2 程序无法拒，正确解法在 M3 的 L2 语义校验；M3 已由 L2 标注集承接翻正（tests/fixtures/l2/，真实录制 9/9，2026-09-18）"
+    },
+    {
+      "text_contains": "Kubernetes",
+      "priority": "must",
+      "expect_status": "gap",
+      "comment": "复核改 gap：简历无 K8s；gap 行有降级候选（Docker 行），UI 可一键捞回"
+    }
+  ]
+}

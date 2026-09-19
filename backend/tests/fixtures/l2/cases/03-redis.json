@@ -1,0 +1,16 @@
+{
+  "id": "03-redis",
+  "seed": "boundary-007",
+  "sentence": "熟悉 Redis 与消息队列，具备缓存与异步解耦实战经验",
+  "source_fact_ids": [
+    "c1"
+  ],
+  "sources": {
+    "c1": {
+      "raw_quote": "使用 Flink + Kafka 构建实时链路，端到端延迟稳定在 5 分钟内",
+      "attribution": "individual"
+    }
+  },
+  "expect_entailed": false,
+  "comment": "边界 007 翻正（C9）：Kafka 是消息队列但 Redis 无证据——单条要求含多子项时的半对证据，整句不得判蕴含"
+}

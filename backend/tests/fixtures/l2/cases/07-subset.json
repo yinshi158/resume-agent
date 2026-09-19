@@ -1,0 +1,16 @@
+{
+  "id": "07-subset",
+  "seed": null,
+  "sentence": "参与订单中心微服务化改造",
+  "source_fact_ids": [
+    "c1"
+  ],
+  "sources": {
+    "c1": {
+      "raw_quote": "参与订单中心微服务化改造，支撑峰值 QPS 8 万",
+      "attribution": "individual"
+    }
+  },
+  "expect_entailed": true,
+  "comment": "句子是出处的真子集表述（不添加信息）应蕴含"
+}

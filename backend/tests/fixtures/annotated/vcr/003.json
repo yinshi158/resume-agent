@@ -1,0 +1,10 @@
+{
+  "pair": "003",
+  "calls": [
+    "{\"requirements\":[{\"priority\":\"must\",\"text\":\"3 年以上数据开发或数据仓库建设经验\",\"keywords\":[\"数据开发\",\"数据仓库\",\"data warehouse\",\"3年经验\",\"ETL\"]},{\"priority\":\"must\",\"text\":\"精通 SQL 与数据建模\",\"keywords\":[\"SQL\",\"数据建模\",\"data modeling\",\"数据库\"]},{\"priority\":\"must\",\"text\":\"熟悉 Flink 或 Spark 实时计算链路\",\"keywords\":[\"Flink\",\"Spark\",\"实时计算\",\"streaming\",\"实时链路\"]},{\"priority\":\"preferred\",\"text\":\"有数据质量治理经验者优先\",\"keywords\":[\"数据质量\",\"data quality\",\"数据治理\",\"data governance\"]}]}",
+    "{\"req_index\": 0, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"e89277d170e24b4999f7850f397db39e\"}",
+    "{\"req_index\": 1, \"quote\": \"Python、Go、SQL、Redis、Kafka\", \"fact_id\": \"56790f5ef3a944f2aa39f67a1e850800\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 2, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"e89277d170e24b4999f7850f397db39e\"}",
+    "{\"req_index\": 3, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"e89277d170e24b4999f7850f397db39e\"}"
+  ]
+}

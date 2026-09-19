@@ -1,0 +1,26 @@
+{
+  "id": "09-multi-source",
+  "seed": null,
+  "sentence": "使用 Flink + Kafka 构建实时链路，端到端延迟稳定在 5 分钟内；技能覆盖 Python 与 SQL",
+  "source_fact_ids": [
+    "c1",
+    "c2",
+    "c3"
+  ],
+  "sources": {
+    "c1": {
+      "raw_quote": "使用 Flink + Kafka 构建实时链路，端到端延迟稳定在 5 分钟内",
+      "attribution": "individual"
+    },
+    "c2": {
+      "raw_quote": "| Python | 精通 | 5 年 |",
+      "attribution": "individual"
+    },
+    "c3": {
+      "raw_quote": "| SQL | 熟练 | 5 年 |",
+      "attribution": "individual"
+    }
+  },
+  "expect_entailed": true,
+  "comment": "多出处支撑一句：每个断言都能映射到至少一个声明出处时应判蕴含"
+}

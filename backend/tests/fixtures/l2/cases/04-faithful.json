@@ -1,0 +1,16 @@
+{
+  "id": "04-faithful",
+  "seed": null,
+  "sentence": "负责推荐系统重构，DAU 从 70 万提升到 91 万",
+  "source_fact_ids": [
+    "c1"
+  ],
+  "sources": {
+    "c1": {
+      "raw_quote": "负责推荐系统重构，DAU 从 70 万提升到 91 万，接口 P99 延迟下降 30%",
+      "attribution": "individual"
+    }
+  },
+  "expect_entailed": true,
+  "comment": "忠实压缩（去掉出处里的额外信息、不添加新断言）应判蕴含——L2 不要求逐字复述"
+}

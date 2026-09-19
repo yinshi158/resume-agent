@@ -1,0 +1,16 @@
+{
+  "id": "05-inflate",
+  "seed": null,
+  "sentence": "负责推荐系统重构，DAU 提升 50%",
+  "source_fact_ids": [
+    "c1"
+  ],
+  "sources": {
+    "c1": {
+      "raw_quote": "负责推荐系统重构，DAU 从 70 万提升到 91 万，接口 P99 延迟下降 30%",
+      "attribution": "individual"
+    }
+  },
+  "expect_entailed": false,
+  "comment": "数字夸大（实际约 30%）：数字断言必须在出处中有依据（ard/0005 借壳加料）"
+}

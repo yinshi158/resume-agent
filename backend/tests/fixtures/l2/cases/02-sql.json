@@ -1,0 +1,16 @@
+{
+  "id": "02-sql",
+  "seed": "boundary-006",
+  "sentence": "熟练使用 SQL（5 年经验）",
+  "source_fact_ids": [
+    "c1"
+  ],
+  "sources": {
+    "c1": {
+      "raw_quote": "| SQL | 熟练 | 5 年 |",
+      "attribution": "individual"
+    }
+  },
+  "expect_entailed": true,
+  "comment": "边界 006 翻正（C9）：技能表格行可支撑（表格行本身不是否定理由）——M2 是 LLM 未正确引用"
+}

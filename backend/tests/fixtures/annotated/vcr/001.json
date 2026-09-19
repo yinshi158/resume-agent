@@ -1,0 +1,11 @@
+{
+  "pair": "001",
+  "calls": [
+    "{\"requirements\":[{\"priority\":\"must\",\"text\":\"3 年以上后端开发经验\",\"keywords\":[\"后端开发\",\"backend development\",\"服务端开发\",\"backend engineer\"]},{\"priority\":\"must\",\"text\":\"精通 Python\",\"keywords\":[\"Python\",\"Python开发\",\"Python编程\"]},{\"priority\":\"must\",\"text\":\"熟悉高并发与分布式系统\",\"keywords\":[\"高并发\",\"high concurrency\",\"分布式系统\",\"distributed systems\"]},{\"priority\":\"preferred\",\"text\":\"有推荐系统相关经验者优先\",\"keywords\":[\"推荐系统\",\"recommender system\",\"推荐算法\",\"recommendation\"]},{\"priority\":\"must\",\"text\":\"有 5 年以上团队管理经验\",\"keywords\":[\"团队管理\",\"team management\",\"管理经验\",\"人员管理\"]}]}",
+    "{\"req_index\": 0, \"quote\": \"5 年后端开发经验\", \"fact_id\": \"03781e8b86f647d9a2c73d0b65911221\", \"nearest_fact_id\": \"03781e8b86f647d9a2c73d0b65911221\"}",
+    "{\"req_index\": 1, \"quote\": \"Python、Go、SQL、Redis、Kafka、Docker、Kubernetes、分布式系统、高并发\", \"fact_id\": \"1481078bda674c1488b565a6603ff072\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 2, \"quote\": \"专注高并发与分布式系统\", \"fact_id\": \"03781e8b86f647d9a2c73d0b65911221\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 3, \"quote\": \"负责推荐系统重构\", \"fact_id\": \"6590f69ccefc453a9d9ef7f70d25221f\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 4, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"ae1d088d4e844044b410832052a34f4e\"}"
+  ]
+}

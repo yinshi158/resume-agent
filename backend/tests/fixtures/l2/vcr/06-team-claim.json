@@ -1,0 +1,6 @@
+{
+  "case": "06-team-claim",
+  "calls": [
+    "{\"entailed\": false, \"supported_fact_ids\": [], \"reason\": \"出处仅说'参与、配合'，未提及'主导'、'带团队'，也无'新增用户翻倍'的数据支撑。\"}"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "note": "人工复核定稿（2026-09-18，对照 deepseek-flash 真实录制 vcr/003.json）",
+  "resume_source": "01_single_column.txt",
+  "requirements": [
+    {
+      "text_contains": "数据仓库建设",
+      "priority": "must",
+      "expect_status": "gap"
+    },
+    {
+      "text_contains": "SQL",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "SQL"
+    },
+    {
+      "text_contains": "Spark",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "Spark",
+      "boundary": "m3-l2",
+      "comment": "机制边界（M3 验收输入）：简历有明确证据\"使用 Python + Spark 改造离线特征链路\"，但 LLM 未给 quote（保守漏引，实际转 nearest）。M2 程序无法区分漏引与无证据；M3 已由 L2 标注集承接翻正（tests/fixtures/l2/，真实录制 9/9，2026-09-18）"
+    },
+    {
+      "text_contains": "数据质量治理",
+      "priority": "preferred",
+      "expect_status": "gap"
+    }
+  ]
+}

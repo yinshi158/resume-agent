@@ -1,0 +1,6 @@
+{
+  "case": "03-redis",
+  "calls": [
+    "{\"entailed\": false, \"supported_fact_ids\": [\"c1\"], \"reason\": \"c1 仅能支撑熟悉消息队列（Kafka）这一部分，句子中的 Redis、缓存与异步解耦实战经验在出处中均无任何依据。\"}"
+  ]
+}

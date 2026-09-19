@@ -1,0 +1,11 @@
+{
+  "pair": "002",
+  "calls": [
+    "{\"requirements\":[{\"priority\":\"must\",\"text\":\"有推荐系统相关项目的落地经验\",\"keywords\":[\"推荐系统\",\"recommender system\",\"推荐算法\",\"落地经验\",\"项目经验\"]},{\"priority\":\"must\",\"text\":\"熟悉深度学习框架（TensorFlow 或 PyTorch）\",\"keywords\":[\"深度学习框架\",\"TensorFlow\",\"PyTorch\",\"deep learning framework\"]},{\"priority\":\"must\",\"text\":\"精通 Python 与 Spark 做大规模数据处理\",\"keywords\":[\"Python\",\"Spark\",\"大规模数据处理\",\"big data processing\"]},{\"priority\":\"preferred\",\"text\":\"有 A/B 实验平台建设经验者优先\",\"keywords\":[\"A/B 实验\",\"AB testing\",\"实验平台\",\"平台建设\",\"优先\"]},{\"priority\":\"must\",\"text\":\"有 2 年以上算法团队管理经验\",\"keywords\":[\"算法团队管理\",\"团队管理经验\",\"2年以上\",\"algorithm team management\"]}]}",
+    "{\"req_index\": 0, \"quote\": \"负责推荐系统重构,DAU 从 70 万提升到 91 万\", \"fact_id\": \"7b3435e2237741c79b3c6ca76e231db8\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 1, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"b7f9d55fc43d473cb2bac3afe5c0c77d\"}",
+    "{\"req_index\": 2, \"quote\": \"使用 Python + Spark 改造离线特征链路,特征产出时间从 4 小时缩短到 40 分钟\", \"fact_id\": \"932b86e2b0934b14ba26de1f19cd27e4\", \"nearest_fact_id\": null}",
+    "{\"req_index\": 3, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"7b3435e2237741c79b3c6ca76e231db8\"}",
+    "{\"req_index\": 4, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"c16d426894224d36b1e64e652060a5a5\"}"
+  ]
+}

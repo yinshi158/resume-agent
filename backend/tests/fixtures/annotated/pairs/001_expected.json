@@ -1,0 +1,36 @@
+{
+  "note": "人工复核定稿（2026-09-18，对照 deepseek-flash 真实录制 vcr/001.json）",
+  "resume_source": "01_single_column.txt",
+  "requirements": [
+    {
+      "text_contains": "3 年以上后端开发经验",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "后端开发"
+    },
+    {
+      "text_contains": "精通 Python",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "Python"
+    },
+    {
+      "text_contains": "高并发与分布式系统",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "高并发与分布式系统"
+    },
+    {
+      "text_contains": "推荐系统",
+      "priority": "preferred",
+      "expect_status": "direct",
+      "expect_quote_contains": "推荐系统"
+    },
+    {
+      "text_contains": "团队管理经验",
+      "priority": "must",
+      "expect_status": "gap",
+      "comment": "复核改 gap：简历无管理类表述，LLM 与 mock 一致；草稿的 nearest 期望过高"
+    }
+  ]
+}

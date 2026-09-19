@@ -1,0 +1,37 @@
+[project]
+name = "resume-agent-backend"
+version = "0.1.0"
+description = "简历优化 Agent M3 后端：本地单体（ard/0007），FastAPI + SQLite + LiteLLM + Playwright"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "pydantic>=2.6",
+    "python-multipart>=0.0.9",
+    "pymupdf>=1.24",
+    "pymupdf4llm>=0.0.17",
+    "markitdown[docx]>=0.0.1",
+    "litellm>=1.40",
+    # R4 已决：Playwright 为导出唯一渲染路径（首次安装需下载浏览器二进制，
+    # 缺失时导出按钮置灰并给安装指引）
+    "playwright>=1.40",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "hypothesis>=6",
+    "python-docx>=1.1",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

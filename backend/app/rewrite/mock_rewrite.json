@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "note": "mock 改写模板（无 key 全链路可跑通，ard/0007）。质量不代表真实 LLM 水平，界面与响应头须标示 mock。fabricated_suffix 携带一个确定性哨兵数字（不在任何出处中）用于演示 L0 拦截 + 重写轮；unbacked_claim 与任何出处无足够逐字重叠，用于演示 L2 升级路径（gate2 强标红）。",
+  "fabricated_suffix_template": "，推动整体效率提升 {percent}",
+  "unbacked_claim": "在长期实践中形成了沉稳细致的工作风格，获得同事与合作伙伴的普遍认可",
+  "max_target_sentences": 12
+}

@@ -1,0 +1,32 @@
+{
+  "note": "人工复核定稿（2026-09-18，对照 deepseek-flash 真实录制 vcr/004.json）",
+  "resume_source": "02_two_column.txt",
+  "requirements": [
+    {
+      "text_contains": "Java 后端开发",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "后端开发",
+      "comment": "复核放宽 quote 断言：LLM 引\"后端开发工程师 | 2021.7 - 至今\"证明年限与岗位，Java 证据在技能行——单 quote 无法同时锚两处，多子项归并是 M3 L2 职责"
+    },
+    {
+      "text_contains": "Spring",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "Spring"
+    },
+    {
+      "text_contains": "高并发系统稳定性",
+      "priority": "must",
+      "expect_status": "direct",
+      "expect_quote_contains": "交易链路稳定性建设",
+      "comment": "复核改 direct：LLM 找到逐字证据\"负责交易链路稳定性建设，SLA 从 99.9% 提升到 99.99%\"，草稿低估了"
+    },
+    {
+      "text_contains": "MySQL",
+      "priority": "must",
+      "expect_status": "nearest",
+      "comment": "复核改 nearest：技能行只有 MySQL 没有\"优化\"，LLM 的保守判断比草稿的 direct 更诚实（正是我们要的防牵强行为）"
+    }
+  ]
+}

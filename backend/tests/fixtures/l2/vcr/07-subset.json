@@ -1,0 +1,6 @@
+{
+  "case": "07-subset",
+  "calls": [
+    "{\"entailed\": true, \"supported_fact_ids\": [\"c1\"], \"reason\": \"出处明确包含\\\"参与订单中心微服务化改造\\\"，句子未添加出处之外的信息。\"}"
+  ]
+}

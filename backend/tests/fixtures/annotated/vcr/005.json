@@ -1,0 +1,10 @@
+{
+  "pair": "005",
+  "calls": [
+    "{\"requirements\":[{\"priority\":\"must\",\"text\":\"有推荐系统或广告算法经验\",\"keywords\":[\"推荐系统\",\"recommender system\",\"广告算法\",\"advertising algorithm\"]},{\"priority\":\"must\",\"text\":\"精通 Python 和深度学习框架\",\"keywords\":[\"Python\",\"深度学习框架\",\"deep learning framework\",\"PyTorch\",\"TensorFlow\"]},{\"priority\":\"must\",\"text\":\"有大规模特征工程经验\",\"keywords\":[\"大规模特征工程\",\"large-scale feature engineering\",\"feature engineering\"]},{\"priority\":\"preferred\",\"text\":\"有用户增长算法经验者优先\",\"keywords\":[\"用户增长算法\",\"user growth algorithm\",\"growth algorithm\"]}]}",
+    "{\"req_index\": 0, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": null}",
+    "{\"req_index\": 1, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"8bf655dead8f451982c21ab594702389\"}",
+    "{\"req_index\": 2, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": null}",
+    "{\"req_index\": 3, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": null}"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "pair": "009",
+  "calls": [
+    "{\"requirements\":[{\"priority\":\"must\",\"text\":\"精通 SQL 与数据仓库建设\",\"keywords\":[\"SQL\",\"数据仓库\",\"data warehouse\",\"数仓建设\"]},{\"priority\":\"must\",\"text\":\"有 Flink 实时计算经验\",\"keywords\":[\"Flink\",\"实时计算\",\"stream computing\",\"流计算\"]},{\"priority\":\"must\",\"text\":\"熟练使用 Python 做数据分析\",\"keywords\":[\"Python\",\"数据分析\",\"data analysis\"]},{\"priority\":\"must\",\"text\":\"有 A/B 实验设计经验\",\"keywords\":[\"A/B 实验\",\"A/B testing\",\"实验设计\",\"AB test\"]}]}",
+    "{\"req_index\": 0, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"d608e81b7e1e4e2b88193f8b1dbd180d\"}",
+    "{\"req_index\": 1, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": null}",
+    "{\"req_index\": 2, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"d608e81b7e1e4e2b88193f8b1dbd180d\"}",
+    "{\"req_index\": 3, \"quote\": null, \"fact_id\": null, \"nearest_fact_id\": \"d17cd8601da4457dba0492084f928054\"}"
+  ]
+}

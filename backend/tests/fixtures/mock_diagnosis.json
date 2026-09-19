@@ -1,0 +1,51 @@
+{
+  "source": "01_single_column.pdf + DEMO_JD（见 test_diagnose_api.py）",
+  "note": "mock 模式固定诊断（规则拆解 + 规则举证产物）；质量不代表真实水平；不含随机 id",
+  "summary": {
+    "must_total": 4,
+    "must_direct": 3,
+    "must_nearest": 0,
+    "must_gap": 1,
+    "preferred_total": 1,
+    "preferred_direct": 1,
+    "worth_applying": true,
+    "notice": null
+  },
+  "requirements": [
+    {
+      "priority": "must",
+      "text": "有 5 年以上团队管理经验",
+      "status": "gap",
+      "quote": null,
+      "nearest_note": "未找到关键词重叠的经历，可从下方选择相关条目捞回"
+    },
+    {
+      "priority": "must",
+      "text": "3 年以上后端开发经验",
+      "status": "direct",
+      "quote": "求职意向:后端开发工程师(Python)",
+      "nearest_note": null
+    },
+    {
+      "priority": "must",
+      "text": "精通 Python",
+      "status": "direct",
+      "quote": "求职意向:后端开发工程师(Python)",
+      "nearest_note": null
+    },
+    {
+      "priority": "must",
+      "text": "熟悉高并发与分布式系统",
+      "status": "direct",
+      "quote": "5 年后端开发经验,专注高并发与分布式系统,主导过千万级用户产品的服务端架构设计。",
+      "nearest_note": null
+    },
+    {
+      "priority": "preferred",
+      "text": "有推荐系统相关经验优先",
+      "status": "direct",
+      "quote": "负责推荐系统重构,DAU 从 70 万提升到 91 万,接口 P99 延迟下降 30%",
+      "nearest_note": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "08-smuggle",
+  "seed": null,
+  "sentence": "具备 Kubernetes 与 AWS 生产环境经验",
+  "source_fact_ids": [
+    "c1"
+  ],
+  "sources": {
+    "c1": {
+      "raw_quote": "Python、Go、SQL、Redis、Kafka、Docker、Kubernetes、分布式系统、高并发",
+      "attribution": "individual"
+    }
+  },
+  "expect_entailed": false,
+  "comment": "借壳加料：出处只有 Kubernetes（技能列举），AWS 与生产环境经验均无出处"
+}

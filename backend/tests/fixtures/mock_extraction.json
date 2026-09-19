@@ -1,0 +1,389 @@
+{
+  "source": "01_single_column.txt",
+  "note": "mock 模式固定抽取结果（规则抽取产物）；质量不代表真实水平",
+  "facts": [
+    {
+      "section": "other",
+      "quote": "求职意向:后端开发工程师(Python)",
+      "fields": {
+        "text": "求职意向:后端开发工程师(Python)"
+      },
+      "date_interpretations": [],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [],
+        "orgs": [],
+        "skills": [
+          "Python"
+        ]
+      }
+    },
+    {
+      "section": "other",
+      "quote": "电话:138-0000-0000 邮箱:zhangsan@example.com",
+      "fields": {
+        "text": "电话:138-  邮箱:zhangsan@example.com",
+        "period": "0000-0000"
+      },
+      "date_interpretations": [
+        {
+          "raw": "0000-0000",
+          "normalized": "0 至 0",
+          "ambiguous": false,
+          "candidates": []
+        }
+      ],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [
+          {
+            "value": 138.0,
+            "unit": ""
+          },
+          {
+            "value": 0.0,
+            "unit": ""
+          },
+          {
+            "value": 0.0,
+            "unit": ""
+          }
+        ],
+        "orgs": [],
+        "skills": []
+      }
+    },
+    {
+      "section": "summary",
+      "quote": "5 年后端开发经验,专注高并发与分布式系统,主导过千万级用户产品的服务端架构设计。",
+      "fields": {
+        "text": "5 年后端开发经验,专注高并发与分布式系统,主导过千万级用户产品的服务端架构设计。"
+      },
+      "date_interpretations": [],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [
+          {
+            "value": 5.0,
+            "unit": ""
+          }
+        ],
+        "orgs": [],
+        "skills": [
+          "分布式系统",
+          "高并发"
+        ]
+      }
+    },
+    {
+      "section": "work",
+      "quote": "腾讯科技有限公司 | 后端开发工程师 | 2019.3 - 2021.6",
+      "fields": {
+        "organization": "腾讯科技有限公司",
+        "title": "后端开发工程师",
+        "period": "2019.3 - 2021.6"
+      },
+      "date_interpretations": [
+        {
+          "raw": "2019.3 - 2021.6",
+          "normalized": "2019-03 至 2021-06",
+          "ambiguous": false,
+          "candidates": []
+        }
+      ],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [],
+        "orgs": [
+          "腾讯科技有限公司"
+        ],
+        "skills": []
+      }
+    },
+    {
+      "section": "work",
+      "quote": "负责推荐系统重构,DAU 从 70 万提升到 91 万,接口 P99 延迟下降 30%",
+      "fields": {
+        "organization": "负责推荐系统重构,DAU 从 70 万提升到 91 万,接口 P99 延迟下降 30%"
+      },
+      "date_interpretations": [],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [
+          {
+            "value": 700000.0,
+            "unit": "万"
+          },
+          {
+            "value": 910000.0,
+            "unit": "万"
+          },
+          {
+            "value": 99.0,
+            "unit": ""
+          },
+          {
+            "value": 30.0,
+            "unit": "%"
+          }
+        ],
+        "orgs": [
+          "负责推荐系统重构,DAU 从 70 万提升到 91 万,接口 P99 延迟下降 30%"
+        ],
+        "skills": [
+          "推荐系统"
+        ]
+      }
+    },
+    {
+      "section": "work",
+      "quote": "参与订单中心微服务化改造,支撑峰值 QPS 8 万",
+      "fields": {
+        "organization": "参与订单中心微服务化改造,支撑峰值 QPS 8 万"
+      },
+      "date_interpretations": [],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [
+          {
+            "value": 80000.0,
+            "unit": "万"
+          }
+        ],
+        "orgs": [
+          "参与订单中心微服务化改造,支撑峰值 QPS 8 万"
+        ],
+        "skills": [
+          "微服务"
+        ]
+      }
+    },
+    {
+      "section": "work",
+      "quote": "字节跳动 | 高级后端工程师 | 2021.7 - 至今",
+      "fields": {
+        "organization": "字节跳动",
+        "title": "高级后端工程师",
+        "period": "2021.7 - 至今"
+      },
+      "date_interpretations": [
+        {
+          "raw": "2021.7 - 至今",
+          "normalized": "2021-07 至 至今",
+          "ambiguous": false,
+          "candidates": []
+        }
+      ],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [],
+        "orgs": [
+          "字节跳动"
+        ],
+        "skills": []
+      }
+    },
+    {
+      "section": "work",
+      "quote": "负责广告计费系统,日处理流水 5000 万元",
+      "fields": {
+        "organization": "负责广告计费系统,日处理流水 5000 万元"
+      },
+      "date_interpretations": [],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [
+          {
+            "value": 50000000.0,
+            "unit": "元"
+          }
+        ],
+        "orgs": [
+          "负责广告计费系统,日处理流水 5000 万元"
+        ],
+        "skills": []
+      }
+    },
+    {
+      "section": "work",
+      "quote": "带领 3 人小组完成计费链路重构,人力成本下降 15%",
+      "fields": {
+        "organization": "带领 3 人小组完成计费链路重构,人力成本下降 15%"
+      },
+      "date_interpretations": [],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [
+          {
+            "value": 3.0,
+            "unit": "人"
+          },
+          {
+            "value": 15.0,
+            "unit": "%"
+          }
+        ],
+        "orgs": [
+          "带领 3 人小组完成计费链路重构,人力成本下降 15%"
+        ],
+        "skills": []
+      }
+    },
+    {
+      "section": "project",
+      "quote": "推荐系统重构 | 核心开发 | 2020.4 - 2021.6",
+      "fields": {
+        "name": "推荐系统重构",
+        "role": "核心开发",
+        "period": "2020.4 - 2021.6"
+      },
+      "date_interpretations": [
+        {
+          "raw": "2020.4 - 2021.6",
+          "normalized": "2020-04 至 2021-06",
+          "ambiguous": false,
+          "candidates": []
+        }
+      ],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [],
+        "orgs": [
+          "推荐系统重构"
+        ],
+        "skills": [
+          "推荐系统"
+        ]
+      }
+    },
+    {
+      "section": "project",
+      "quote": "使用 Python + Spark 改造离线特征链路,特征产出时间从 4 小时缩短到 40 分钟",
+      "fields": {
+        "name": "使用 Python + Spark 改造离线特征链路,特征产出时间从 4 小时缩短到 40 分钟"
+      },
+      "date_interpretations": [],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [
+          {
+            "value": 4.0,
+            "unit": "小时"
+          },
+          {
+            "value": 40.0,
+            "unit": "分钟"
+          }
+        ],
+        "orgs": [
+          "使用 Python + Spark 改造离线特征链路,特征产出时间从 4 小时缩短到 40 分钟"
+        ],
+        "skills": [
+          "Python",
+          "Spark"
+        ]
+      }
+    },
+    {
+      "section": "project",
+      "quote": "引入 Redis 缓存,缓存命中率 98%",
+      "fields": {
+        "name": "引入 Redis 缓存,缓存命中率 98%"
+      },
+      "date_interpretations": [],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [
+          {
+            "value": 98.0,
+            "unit": "%"
+          }
+        ],
+        "orgs": [
+          "引入 Redis 缓存,缓存命中率 98%"
+        ],
+        "skills": [
+          "Redis"
+        ]
+      }
+    },
+    {
+      "section": "education",
+      "quote": "清华大学 | 计算机科学与技术 | 本科 | 2015.9 - 2019.6",
+      "fields": {
+        "school": "清华大学",
+        "degree": "计算机科学与技术",
+        "period": "2015.9 - 2019.6"
+      },
+      "date_interpretations": [
+        {
+          "raw": "2015.9 - 2019.6",
+          "normalized": "2015-09 至 2019-06",
+          "ambiguous": false,
+          "candidates": []
+        }
+      ],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [],
+        "orgs": [
+          "清华大学"
+        ],
+        "skills": []
+      }
+    },
+    {
+      "section": "skill",
+      "quote": "Python、Go、SQL、Redis、Kafka、Docker、Kubernetes、分布式系统、高并发",
+      "fields": {
+        "items": [
+          "Python",
+          "Go",
+          "SQL",
+          "Redis",
+          "Kafka",
+          "Docker",
+          "Kubernetes",
+          "分布式系统",
+          "高并发"
+        ]
+      },
+      "date_interpretations": [],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [],
+        "orgs": [],
+        "skills": [
+          "Python",
+          "Go",
+          "SQL",
+          "Redis",
+          "Docker",
+          "Kubernetes",
+          "Kafka",
+          "分布式系统",
+          "高并发"
+        ]
+      }
+    },
+    {
+      "section": "other",
+      "quote": "2020 年度腾讯技术突破奖",
+      "fields": {
+        "text": "2020 年度腾讯技术突破奖"
+      },
+      "date_interpretations": [],
+      "attribution": "unknown",
+      "entities": {
+        "numbers": [
+          {
+            "value": 2020.0,
+            "unit": ""
+          }
+        ],
+        "orgs": [],
+        "skills": []
+      }
+    }
+  ]
+}
